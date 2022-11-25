@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.dispo{
+    width: 100vw;
+    height: 40vh;
+    overflow: hidden;
+    object-fit: contain;
+}
+
+main{
+    display: flex;
+    justify-content: space-around;
+    width: 98vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2vh;
+}
+
+body{
+    background-color: E5E5E5;
+}
+
+.fr{
+    width: 45%;
+}
+
+.lt{
+    width: 45%;
+}
+
+.fr_h3{
+    text-align: center;
+    font-size:2vw;
+    font-weight: bold;
+}
+
+.lt_h3{
+    text-align: center;
+    font-size:2vw;
+    font-weight: bold;
+}
+
+.fr_p1{
+    font-size: 1vw;
+}
+
+.fr_p2{
+    font-size: 1vw;
+}
+
+.fr_p3{
+    font-size: 1vw;
+}
+
+.lt_p1{
+    font-size: 1vw;
+}
+
+.lt_p2{
+    font-size: 1vw;
+}
+
+.lt_p3{
+    font-size: 1vw;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-between;
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+    height: 60vh;
+    overflow: hidden;
+    padding-bottom: 4vh;
+}
