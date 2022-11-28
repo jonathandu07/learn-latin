@@ -1,10 +1,3 @@
-<?php
-header('Content-type: text/html; charset=utf-8');
-session_start();
-
-include "./functions/translate.php";
-?>
-
 <!DOCTYPE html>
 <html lang="fr">
 
@@ -28,9 +21,6 @@ include "./functions/translate.php";
 </head>
 
 <body>
-    <?php
-    include "./navbar.php";
-    ?>
     <article class="dispo">
         <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
@@ -185,23 +175,6 @@ include "./functions/translate.php";
             </div>
         </div>
     </article>
-    <footer class="container p-4 rounded">
-        <div class="d-lg-flex justify-content-between">
-            <div>
-                <span>LOGO</span>
-            </div>
-            <div class="copyright">
-                <p>developed and maintained by <a href="#" target="_blank">company</a></p>
-            </div>
-            <div>
-                <ul class="d-flex gap-3 list-unstyled">
-                    <li><a href="#"><i class="bi bi-facebook"></i></a></li>
-                    <li><a href="#"><i class="bi bi-twitter"></i></a></li>
-                    <li><a href="#"><i class="bi bi-instagram"></i></a></li>
-                </ul>
-            </div>
-        </div>
-    </footer>
 </body>
 
 </html>
